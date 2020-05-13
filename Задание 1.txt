@@ -1,0 +1,18 @@
+public static string stpow(string la)
+{
+string x = la + la + la + la;
+return x;
+}
+public static string rev(string k)
+{
+char[] y = a.ToCharArray();
+Array.Reverse(y); 
+return new string(y);
+}
+public static string remov(string str, string s)
+{
+Console.Write("¬ведите подстроку: ");
+s = Console.ReadLine();
+str = str.Replace(s, "");
+return str;
+}
